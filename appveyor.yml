@@ -92,7 +92,7 @@ build_script:
     - echo "==============================================="
     - ./coredns -plugins
     - echo "==============================================="
-    - make CGO_ENABLED=$CGO_ENABLED
+    - make CGO_ENABLED=0
     - cd ..
 
 # scripts that run after build
